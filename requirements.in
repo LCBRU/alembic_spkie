@@ -1,0 +1,10 @@
+-e git+https://github.com/LCBRU/lbrc_flask.git@main#egg=lbrc_flask
+Flask
+sqlalchemy==1.4.46
+pymysql
+weasyprint<53.0
+Flask-WeasyPrint
+alembic
+pytz
+celery==5.0.0
+celery[redis]
